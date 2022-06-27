@@ -1,0 +1,100 @@
+.share{
+  margin: 10px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: -4px -1px 35px -3px rgba(0,0,0,0.39);
+  -webkit-box-shadow: -4px -1px 35px -3px rgba(0,0,0,0.39);
+  margin-top: 60px;
+}
+
+.shareWrapper{
+  padding: 15px;
+}
+
+.shareTop{
+  display: flex;
+  align-items: center;
+}
+
+.shareImg{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.shareInput{
+  border: none;
+  width: 80%;
+  height: 20px;
+}
+
+.shareInput:focus{
+  outline: none;
+}
+
+.shareHr{
+  margin: 20px;
+
+}
+
+.shareBottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shareOptions{
+  display: flex;
+  margin-left: 18px;
+  margin-top: 10px;
+}
+
+.shareOption{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.shareIcon{
+  font-size: 25px !important;
+  margin-right: 8px;
+}
+
+.shareText{
+  font-weight: 500;
+}
+
+.shareButton{
+  border: none;
+  background-color: #0cc10c;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+.shareImgContainer{
+  padding: 0 20px 10px 20px;
+  position: relative;
+}
+
+.shareImgUpload{
+  width: 100%;
+  object-fit: cover;
+}
+
+.shareCancelImg{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  cursor: pointer;
+  opacity: 0.9;
+  color: white;
+}

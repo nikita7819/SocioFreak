@@ -1,0 +1,33 @@
+
+.friend{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profileContainer{
+  margin-right: 10px;
+  position: relative;
+}
+
+.onlineFriendImg{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.onlineBadge{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgb(41, 224, 41);
+  position: absolute;
+  top: -2;
+  right: 0;
+  border: 2px solid white;
+}
+
+.username{
+  font-weight: 500;
+}

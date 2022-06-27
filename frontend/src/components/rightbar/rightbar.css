@@ -1,0 +1,98 @@
+.rightbar{
+  flex: 3.5;
+  height: calc(100vh - 50px);
+  position: relative;
+  top: 50px;
+}
+
+.rightbarWrapper{
+  padding: 20px;
+  /* margin-top: 30px; */
+}
+
+.birthdayContainer{
+  display: flex;
+  align-items: center;
+}
+
+.birthdayImg{
+  width: 70px;
+  height: 70px;
+  /* margin: 15px 5px 10px 0; */
+}
+
+.birthdayText{
+  font-weight: 300;
+  font-size: 20px;
+}
+
+b{
+  font-weight: 500;
+}
+
+.rightbarAd{
+  width: 100%;
+  border-radius: 20px;
+  margin: 15px 0px;
+  
+}
+
+.rightbarTitle{
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.friendList{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rightbarInfo{
+  margin-bottom: 30px;
+}
+
+.rightbarInfoItem{
+  margin-bottom: 10px;
+}
+
+.rightbarInfokey{
+  margin-right: 10px;
+  font-weight: 500;
+  color: #585656;
+}
+
+.rightbarFollowings{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rightbarFollowing{
+  display: flex;
+  flex-direction: column;
+  margin: 0 8px 10px 0;
+  cursor: pointer;
+}
+
+.rightbarFollowingImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.rightbarfollowbtn, .editProfilebtn{
+  margin: 12px 0px;
+  background-color: #c567fb;
+  color: white;
+  font-size:22px;
+  font-weight: 500;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 7px;
+}

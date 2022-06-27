@@ -1,0 +1,85 @@
+.signup{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ede1f8;
+}
+
+.signupWrapper{
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+.signupLeft, .signupRight{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signupLogo{
+  font-weight: 700;
+  font-size: 50px;
+  color: #9914ff;
+  margin-bottom: 15px;
+}
+
+.signupDesc{
+  font-size: 22px;
+}
+
+.signupBox{
+  height: 400px;
+  padding: 20px;
+  width: 80%;
+  background-color: #faf0fd;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.signupInput{
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.signupInput:focus{
+  outline: none;
+}
+
+.signupBtn{
+  height: 40px;
+  border-radius: 8px;
+  background-color: #b85aff;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.signupForgot{
+  text-align: center;
+  color: #b85aff;
+}
+
+.signupRegBtn{
+  width: 60%;
+  height: 40px;
+  margin-left: 90px;
+  border-radius: 8px;
+  background-color: #fd72b3;
+  border: none;
+  align-self: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
